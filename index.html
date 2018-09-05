@@ -79,18 +79,37 @@
         </div>
         <!-- media object and modal button -->
         <div class="row">
-        <div class="col-lg-8">
-          <div class="media">
-          <video width="1920" height="1080"  controls>
-            <source src="video/waterfall.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
+          <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+            <div class="media">
+              <video width="1920" height="1080"  controls>
+                <source src="video/waterfall.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-8 col-sm-6 col-xs-12">
+              <button class=" btn btn-info btn-custom btn-lg" type="button" name="button" data-toggle="modal" data-target="#myModal">Click me!</button>
+            </div>
+            <div class="modal-dialog">
+              <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title">Thanks for clicking!</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>You're the best!!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        </div>
-        <div class="col-lg-4">
-          <button type="button" name="button">Click me!</button>
-        </div>
-        </div>
-      </div>
-    </body>
+      </body>
     </html>
