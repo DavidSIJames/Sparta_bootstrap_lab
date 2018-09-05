@@ -1,0 +1,15 @@
+.logo {
+  width:35px;
+}
+
+.navbar-custom {
+  background-color: #444;
+}
+
+.navbar-brand {
+  padding-top: 6px;
+}
+
+.nav li  a{
+  color: #eee;
+}
