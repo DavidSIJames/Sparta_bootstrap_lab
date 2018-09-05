@@ -1,15 +1,16 @@
+/* navbar */
 .logo {
   width:35px;
 }
 
-.navbar-custom {
-  background-color: #444;
+.navbar{
+  margin-bottom: 0px;
 }
 
-.navbar-brand {
-  padding-top: 6px;
-}
 
-.nav li  a{
+/* jumbotron */
+.jumbotron {
+  background-color: black;
   color: #eee;
+  text-align: center;
 }
