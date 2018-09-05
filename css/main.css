@@ -45,7 +45,6 @@ video {
 
 button{
   margin: 250px 175px;
-
 }
 
 .btn-custom {
@@ -53,6 +52,9 @@ button{
   color: #eee;
   border:1px solid black;
 }
-.modal-footer button {
-
+/* footer */
+.footer{
+  background-color: black;
+  padding-bottom: 10px;
+  color: #eee;
 }
