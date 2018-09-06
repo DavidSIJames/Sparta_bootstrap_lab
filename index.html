@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap_Lab</title>
+  <link rel="stylesheet" href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"> charset="utf-8"></script>
+  <script src="css/bootstrap-3.3.7-dist/js/bootstrap.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!--=============================================navbar=============================================-->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img class="logo" alt="Brand" src="img/dj_youtube_icon.jpg">
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="LTF/LTF.html">LTF</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- Jumbotron -->
+<div class="jumbotron">
+  <div class="container">
+    <h1>WELCOME TO JUMBOTRON</h1>
+  </div>
+</div>
+<!-- cards -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+      <div class="card">
+        <a href="https://www.youtube.com/channel/UC2iXHJ3hU7a4xiNd6bZuLcg?view_as=subscriber" target="_blank">
+          <img src="img/youtube.png" alt="Avatar">
+          <div class="row">
+            <h4><b>My Youtube Channel</b></h4></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div class="card">
+          <a href="https://github.com/DavidSIJames" target="_blank">
+            <img src="img/git_hub.jpg" alt="Avatar">
+            <div class="row">
+              <h4><b>My Github</b></h4></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="card">
+            <a href="https://www.spartaglobal.com" target="_blank">
+              <img src="img/sparta.jpg" alt="Avatar" >
+              <div class="row">
+                <h4><b>My Company</b></h4></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- media object and modal button -->
+        <div class="row">
+          <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+            <div class="media">
+              <video width="1920" height="1080"  controls>
+                <source src="video/waterfall.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-8 col-sm-6 col-xs-12">
+              <button class="btn btn-info btn-custom btn-modal" type="button" name="button" data-toggle="modal" data-target="#myModal">Click me!</button>
+            </div>
+            <div class="modal-dialog">
+              <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title">Thanks for clicking!</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>You're the best!!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <div class="footer">
+            <h5><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em></h5>
+          </div>
+        </footer>
+      </body>
+      </html>
