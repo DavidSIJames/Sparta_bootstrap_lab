@@ -2,11 +2,9 @@
 .logo {
   width:35px;
 }
-
 .navbar{
   margin-bottom: 0px;
 }
-
 .navbar-brand {
   padding-top: 6px;
 }
@@ -24,12 +22,10 @@
   width: 100%;
   margin-bottom: 20px;
 }
-
 /* On mouse-over, add a deeper shadow */
 .card:hover {
   box-shadow: 0 16px 32px 0 rgba(0,0,0,0.6);
 }
-
 /* Add some padding inside the card container */
 .container {
   padding: 2px 16px;
@@ -46,7 +42,6 @@ video {
 .btn-modal{
   margin: 250px 175px;
 }
-
 .btn-custom {
   background-color: black;
   color: #eee;
